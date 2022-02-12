@@ -2,14 +2,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class B_2309 {
-	static int comb(int[] arr,int n,int r) {
-		if(r==0||n==r) {
-			
-			return 1;
-			}
-		else
-			return comb(arr,n-1,r-1)+comb(arr,n-1,r);
-	}
 	
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
